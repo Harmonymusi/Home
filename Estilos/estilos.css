@@ -1,0 +1,141 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;   
+    padding: 0;
+    
+}
+
+
+header{
+    display:flex ;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80x;
+    
+   
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 45px;
+}
+
+.link {
+    color:black;   
+}
+nav a:hover{
+    color: red;
+}
+
+h2{
+    color: black;
+}
+
+.slider{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 10s infinite;
+    animation-direction: alternate;
+    
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 55rem;
+    
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    55%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -298%;}
+    100%{margin-left: -298%;}
+
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon.face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+}
+
+.icon{
+    color: white;
+    font-size: 22px;
+    display: inline-block;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.menu-elem{
+    list-style:none;
+}
+
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+
+}
+.icon-elem{
+    list-style: none;
+}
+
+
+
+
